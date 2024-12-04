@@ -439,37 +439,37 @@ export const bonusCards = [
 
     // Creativity Family
     {
-      id: 37,
+      id: 72,
       title: "Creativity Family",
       description:
         "Can you explain what innovative thinking means, and describe it using as many words as possible?",
     },
     {
-      id: 38,
+      id: 73,
       title: "Creativity Family",
       description:
         "Can you explain what brainstorming means and describe it using as many words as possible?",
     },
     {
-      id: 39,
+      id: 74,
       title: "Creativity Family",
       description:
         "Can you explain what calculated risk-taking means, using as many words as possible?",
     },
     {
-      id: 40,
+      id: 75,
       title: "Creativity Family",
       description:
         "Can you explain what adapting ideas means, using as many words as possible?",
     },
     {
-      id: 41,
+      id: 76,
       title: "Creativity Family",
       description:
         "Can you explain what creative problem solving means, using as many words as possible?",
     },
     {
-      id: 42,
+      id: 77,
       title: "Creativity Family",
       description:
         "Can you explain what design thinking means, using as many words as possible?",
