@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import { bonusCards } from "./data";
+import "../public/logo 1.png";
 
 const App = () => {
 
@@ -20,16 +21,18 @@ const App = () => {
   };
 
   return (
+
     <div
-      style={{
-        textAlign: "center",
-        minHeight: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
+    style={{
+      textAlign: "center",
+      minHeight: "100vh",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
+    }}
     >
+    <img src="../public/logo 1.png" alt="" />
       <h1>Bonus Card</h1>
       <button
         onClick={revealBonusCard}

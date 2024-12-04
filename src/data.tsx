@@ -365,40 +365,76 @@ export const bonusCards = [
 
     // Emotional Intelligence Family
     {
-      id: 31,
+      id: 60,
       title: "Emotional Intelligence Family",
       description:
         "Can you explain what empathy means, using as many words as possible?",
     },
     {
-      id: 32,
+      id: 61,
       title: "Emotional Intelligence Family",
       description:
         "Can you explain what self-awareness means, using as many words as possible?",
     },
     {
-      id: 33,
+      id: 62,
       title: "Emotional Intelligence Family",
       description:
         "Can you explain what self-regulation means, using as many words as possible?",
     },
     {
-      id: 34,
+      id: 63,
       title: "Emotional Intelligence Family",
       description:
         "Can you explain what social skills mean, using as many words as possible?",
     },
     {
-      id: 35,
+      id: 64,
       title: "Emotional Intelligence Family",
       description:
         "Can you explain what managing emotions means, using as many words as possible?",
     },
     {
-      id: 36,
+      id: 65,
       title: "Emotional Intelligence Family",
       description:
         "Can you explain what interpersonal conflict resolution means, using as many words as possible?",
+    },
+    {
+      id: 66,
+      title: "Emotional Intelligence Family",
+      description:
+        "Draw a symbol or icon that represents the empathy sub-skill in 1 minute. Be creative and think of visuals that illustrate this skill. This could be an object, a character, or a concept that you think represents empathy well. (Empathy)",
+    },
+    {
+      id: 67,
+      title: "Emotional Intelligence Family",
+      description:
+        "Draw a symbol or icon that represents the 'Self-Awareness' sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. It could be an object, a character, or a concept that you think represents Self-Awareness well. (Self-awareness)",
+    },
+    {
+      id: 68,
+      title: "Emotional Intelligence Family",
+      description:
+        "Draw a symbol or icon that represents the 'Self-regulation' sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. It could be an object, a character, or a concept that you think represents Self-regulation well (Self-regulation)",
+    },
+    {
+      id: 69,
+      title: "Emotional Intelligence Family",
+      description:
+        "Draw 3 emoticons that illustrate social skills in 1 minute. (Social skills)",
+    },
+    {
+      id: 70,
+      title: "Emotional Intelligence Family",
+      description:
+        "Draw a symbol or icon that represents the 'Managing Emotions' sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. It could be an object, a character, or a concept that you think represents managing emotions effectively. (Managing emotions)",
+    },
+    {
+      id: 71,
+      title: "Emotional Intelligence Family",
+      description:
+        " Draw a symbol or icon that represents the 'Interpersonal Conflict Resolution' sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. It could be an object, a character, or a concept that you think represents interpersonal conflict resolution effectively.  (Interpersonal conflict resolution) ",
     },
 
     // Creativity Family
