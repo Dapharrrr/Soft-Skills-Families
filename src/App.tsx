@@ -73,7 +73,7 @@ const App = () => {
               width: "100%",
               height: "100%",
               backfaceVisibility: "hidden",
-              backgroundImage: `url('https://postimg.cc/rRyc7ggY')`,
+              backgroundImage: `url('/wallpaperflare.com_wallpaper.jpg')`,
               backgroundSize: "cover",
               backgroundPosition: "center",
               borderRadius: "24px",
