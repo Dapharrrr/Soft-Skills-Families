@@ -32,7 +32,7 @@ const App = () => {
       alignItems: "center",
     }}
     >
-    <img src="/public/logo 1.png" alt="" />
+    <img src="/logo 1.png" alt="" />
       <h1>Bonus Card</h1>
       <button
         onClick={revealBonusCard}
