@@ -291,40 +291,76 @@ export const bonusCards = [
 
     // Leadership Family
     {
-      id: 25,
+      id: 48,
       title: "Leadership Family",
       description:
         "Can you explain what team motivation means, using as many words as possible?",
     },
     {
-      id: 26,
+      id: 49,
       title: "Leadership Family",
       description:
         "Can you explain what delegation means, using as many words as possible?",
     },
     {
-      id: 27,
+      id: 50,
       title: "Leadership Family",
       description:
         "Can you explain what strategic vision means, using as many words as possible?",
     },
     {
-      id: 28,
+      id: 51,
       title: "Leadership Family",
       description:
         "Can you explain what it means to take initiative, using as many words as possible?",
     },
     {
-      id: 29,
+      id: 52,
       title: "Leadership Family",
       description:
         "Can you explain what coaching means, using as many words as possible?",
     },
     {
-      id: 30,
+      id: 53,
       title: "Leadership Family",
       description:
         "Can you explain what performance management means, using as many words as possible?",
+    },
+    {
+      id: 54,
+      title: "Leadership Family",
+      description:
+        " Draw 3 emoticons that illustrate team spirit in 1 minute.(Team motivation)",
+    },
+    {
+      id: 55,
+      title: "Leadership Family",
+      description:
+        " Draw a symbol or icon that represents the delegation sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. This could be an object, a character, or a concept that you think represents delegation well. (Delegation)",
+    },
+    {
+      id: 56,
+      title: "Leadership Family",
+      description:
+        "Draw a symbol or icon that represents the strategic vision sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. This could be an object, a character, or a concept that you think represents strategic vision well. (Strategic vision)",
+    },
+    {
+      id: 57,
+      title: "Leadership Family",
+      description:
+        "Draw a symbol or icon that represents the 'Taking Initiative' sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. It could be an object, a character, or a concept that you feel best represents taking initiative(Taking the initiative)",
+    },
+    {
+      id: 58,
+      title: "Leadership Family",
+      description:
+        "Draw a symbol or icon that represents the coaching sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. This could be an object, a character, or a concept that you think represents coaching well. (Coaching)",
+    },
+    {
+      id: 59,
+      title: "Leadership Family",
+      description:
+        "Draw a symbol or icon that represents the performance management  sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. This could be an object, a character, or a concept that you think represents performance management well. (Performance management)",
     },
 
     // Emotional Intelligence Family
