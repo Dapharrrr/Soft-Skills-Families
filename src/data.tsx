@@ -36,36 +36,6 @@ export const bonusCards = [
       description:
         "Can you explain what non-verbal communication is, using as many words as possible ?",
     },
-    {
-      id: 7,
-      title: "Communication Family",
-      description:
-        "Pretend to listen to another player for 1 minute without saying a word. Then summarize what he said. If you forget something, you lose ! (active listening)",
-    },
-    {
-      id: 8,
-      title: "Communication Family",
-      description:
-        "Tell a completely made-up story in 1 minute. You must include a penguin, a cell phone, and a pizza, and it must all make sense. (spoken expression) ",
-    },
-    {
-      id: 9,
-      title: "Communication Family",
-      description:
-        "Present a completely useless product. Make it so attractive that everyone will want to buy it! (public speaking)",
-    },
-    {
-      id: 10,
-      title: "Communication Family",
-      description:
-        "Draw a symbol or icon that represents the negotiation sub-skill in 3 min. Be creative and think of visual elements that illustrate this skill. This could be an object, a character, or a concept that you think represents negotiation well. (negotiation)",
-    },
-    {
-      id: 11,
-      title: "Communication Family",
-      description:
-        "Show a situation where you are trying to convince someone of something. Use only expressions and gestures.(non-verbal communication",
-    },
 
     // Teamwork Family
     {
@@ -104,42 +74,7 @@ export const bonusCards = [
       description:
         "Can you explain what constructive feedback means, using as many words as possible?",
     },
-    {
-      id: 18,
-      title: "Teamwork Family",
-      description:
-        "With the player of your choice, you will have to hold a ball between you and move around the room without it falling. You have 3 minutes to complete the course without dropping it. If you succeed, you win. (collaboration)",
-    },
-    {
-      id: 19,
-      title: "Teamwork Family",
-      description:
-        "Draw what you think is the conflict management icon. Use symbols, shapes, or visuals that you think represent how to resolve conflict. This could be a picture, an object, or even a scene. You have 3 minutes to create your drawing. (conflict management)",
-    },
-    {
-      id: 20,
-      title: "Teamwork Family",
-      description:
-        "You have 3 minutes to convey an important message to another player, but you can only use 5 words! No more. You must be creative to convey as much information as possible with a limited vocabulary. If the player understands your message, you win!    (information sharing)",
-    },
-    {
-      id: 21,
-      title: "Teamwork Family",
-      description:
-        "You have 1 minute to write down 3 differences that you think should be respected in a work environment. Then show them to the other players so they can validate your answers. If you succeed, you win. (Respecting differences)",
-    },
-    {
-      id: 22,
-      title: "Teamwork Family",
-      description:
-        "Draw what you think is an icon of a positive attitude. Use symbols, shapes, or visuals that you think represent how to resolve conflict. This could be a picture, an object, or even a scene. You have 3 minutes to create your drawing. (positive attitude)",
-    },
-    {
-      id: 23,
-      title: "Teamwork Family",
-      description:
-        "Mime to a player of your choice a situation where they did something very well, then mime what could be improved. All without saying a word! Your mission is to make them understand your feedback only through gestures in 1 minute. If the player understands your feedback, you win!  (constructive feedback)",
-    },
+  
 
     // Problem Solving Family
     {
@@ -177,42 +112,6 @@ export const bonusCards = [
       title: "Problem Solving Family",
       description:
         "Can you explain what resilience means, using as many words as possible?",
-    },
-    {
-      id: 30,
-      title: "Problem Solving Family",
-      description:
-        "Draw a symbol or icon that represents the critical thinking sub-skill in 3 minutes. Be creative and think of visuals that illustrate this skill. This could be an object, a character, or a concept that you think represents critical thinking well.  (critical thinking)",
-    },
-    {
-      id: 31,
-      title: "Problem Solving Family",
-      description:
-        "Your boss asks you to present your sales results, but the only charts you have are made with emojis (😎, 💥, 🍕, etc.). Draw how you would interpret this data to create a clear report and help us understand why you chose these emojis. You have 5 minutes. (Data analysis)",
-    },
-    {
-      id: 32,
-      title: "Problem Solving Family",
-      description:
-        "The team is starting to get stressed because of the workload and tight deadlines. You have 1 minute to propose a solution to reduce this stress and improve productivity, while managing this risk. What do you do? (Risk Management)",
-    },
-    {
-      id: 33,
-      title: "Problem Solving Family",
-      description:
-        "Draw a symbol or icon that represents the decision-making sub-skill, in 3 minutes. Be creative and think of visuals that illustrate this skill. This could be an object, a character, or a concept that you think represents decision-making well. (Decision-making)",
-    },
-    {
-      id: 34,
-      title: "Problem Solving Family",
-      description:
-        " Draw a symbol or icon that represents the stress management sub-skill, in 3 minutes. Be creative and think of visuals that illustrate this skill. This could be an object, a character, or a concept that you think represents stress management well. (Stress management)",
-    },
-    {
-      id: 35,
-      title: "Problem Solving Family",
-      description:
-        "Draw a symbol or icon that represents the resilience sub-skill in 3 minutes. Be creative and think of visuals that illustrate this skill. This could be an object, a character, or a concept that you think represents resilience well. (Resilience) ",
     },
 
     // Adaptability Family
@@ -252,42 +151,6 @@ export const bonusCards = [
       description:
         "Can you explain what intellectual curiosity means, using as many words as possible?",
     },
-    {
-      id: 42,
-      title: "Adaptability Family",
-      description:
-        "You just got an urgent notification: a colleague asks you to help him finalize a presentation, but your spilled coffee and lunch are already on your desk. In 1 minute, make a quick mime where you solve these 3 problems at the same time without losing your mind! (flexibility)",
-    },
-    {
-      id: 43,
-      title: "Adaptability Family",
-      description:
-        "Draw a picture of what you imagine a “teachable moment” at work to be: is it a room full of books, a collaborative workshop or maybe a robot teacher? Be creative and think of original elements! You have 3 minutes.  (Continuous learning) ",
-    },
-    {
-      id: 44,
-      title: "Adaptability Family",
-      description:
-        " Draw an office scene before and after a big change. Show how everyone adapts to the change using visual elements. You have 3 minutes to complete your drawing (change management) ",
-    },
-    {
-      id: 45,
-      title: "Adaptability Family",
-      description:
-        "Draw a symbol or icon that represents the Open-Mindedness sub-skill in 3 minutes. Be creative and think of visuals that illustrate this skill. This could be an object, a character, or a concept that you think represents Open-Mindedness well. (Open-mindedness) ",
-    },
-    {
-      id: 46,
-      title: "Adaptability Family",
-      description:
-        "You have been assigned 3 tasks at once: answer a phone call, participate in an online meeting, and respond to an urgent email. Mime with only gestures how you will juggle these 3 tasks without panicking and laughing. You have 1 minute. (Versatility)  ",
-    },
-    {
-      id: 47,
-      title: "Adaptability Family",
-      description:
-        "Draw a symbol or icon that represents the Intellectual Curiosity sub-skill in 3 minutes. Be creative and think of visuals that illustrate this skill. This could be an object, a character, or a concept that you think represents Intellectual Curiosity well. (Intellectual curiosity)  ",
-    },
 
     // Leadership Family
     {
@@ -326,42 +189,6 @@ export const bonusCards = [
       description:
         "Can you explain what performance management means, using as many words as possible?",
     },
-    {
-      id: 54,
-      title: "Leadership Family",
-      description:
-        " Draw 3 emoticons that illustrate team spirit in 1 minute.(Team motivation)",
-    },
-    {
-      id: 55,
-      title: "Leadership Family",
-      description:
-        " Draw a symbol or icon that represents the delegation sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. This could be an object, a character, or a concept that you think represents delegation well. (Delegation)",
-    },
-    {
-      id: 56,
-      title: "Leadership Family",
-      description:
-        "Draw a symbol or icon that represents the strategic vision sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. This could be an object, a character, or a concept that you think represents strategic vision well. (Strategic vision)",
-    },
-    {
-      id: 57,
-      title: "Leadership Family",
-      description:
-        "Draw a symbol or icon that represents the 'Taking Initiative' sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. It could be an object, a character, or a concept that you feel best represents taking initiative(Taking the initiative)",
-    },
-    {
-      id: 58,
-      title: "Leadership Family",
-      description:
-        "Draw a symbol or icon that represents the coaching sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. This could be an object, a character, or a concept that you think represents coaching well. (Coaching)",
-    },
-    {
-      id: 59,
-      title: "Leadership Family",
-      description:
-        "Draw a symbol or icon that represents the performance management  sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. This could be an object, a character, or a concept that you think represents performance management well. (Performance management)",
-    },
 
     // Emotional Intelligence Family
     {
@@ -399,42 +226,6 @@ export const bonusCards = [
       title: "Emotional Intelligence Family",
       description:
         "Can you explain what interpersonal conflict resolution means, using as many words as possible?",
-    },
-    {
-      id: 66,
-      title: "Emotional Intelligence Family",
-      description:
-        "Draw a symbol or icon that represents the empathy sub-skill in 1 minute. Be creative and think of visuals that illustrate this skill. This could be an object, a character, or a concept that you think represents empathy well. (Empathy)",
-    },
-    {
-      id: 67,
-      title: "Emotional Intelligence Family",
-      description:
-        "Draw a symbol or icon that represents the 'Self-Awareness' sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. It could be an object, a character, or a concept that you think represents Self-Awareness well. (Self-awareness)",
-    },
-    {
-      id: 68,
-      title: "Emotional Intelligence Family",
-      description:
-        "Draw a symbol or icon that represents the 'Self-regulation' sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. It could be an object, a character, or a concept that you think represents Self-regulation well (Self-regulation)",
-    },
-    {
-      id: 69,
-      title: "Emotional Intelligence Family",
-      description:
-        "Draw 3 emoticons that illustrate social skills in 1 minute. (Social skills)",
-    },
-    {
-      id: 70,
-      title: "Emotional Intelligence Family",
-      description:
-        "Draw a symbol or icon that represents the 'Managing Emotions' sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. It could be an object, a character, or a concept that you think represents managing emotions effectively. (Managing emotions)",
-    },
-    {
-      id: 71,
-      title: "Emotional Intelligence Family",
-      description:
-        " Draw a symbol or icon that represents the 'Interpersonal Conflict Resolution' sub-skill in 1 minute. Be creative and think of visual elements that illustrate this skill. It could be an object, a character, or a concept that you think represents interpersonal conflict resolution effectively.  (Interpersonal conflict resolution) ",
     },
 
     // Creativity Family
