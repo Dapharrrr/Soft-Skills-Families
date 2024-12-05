@@ -13,15 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-:root {
-  --background-light: white;
-  --background-dark: black;
-  --text-light: black;
-  --text-dark: white;
-  --border-light: #ddd;
-  --border-dark: #444;
-}
-
 [data-theme="light"] {
   --background-card: var(--background-light);
   --text-card: var(--text-light);

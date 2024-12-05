@@ -85,24 +85,25 @@ const App = () => {
 
           {/* Front of Card */}
           <div
-  style={{
-    position: "absolute",
-    width: "100%",
-    height: "100%",
-    backfaceVisibility: "hidden",
-    transform: "rotateY(180deg)",
-    backgroundColor: "var(--background-card)",
-    color: "var(--text-card)",
-    borderRadius: "24px",
-    border: "8px solid var(--border-card)", 
-    boxSizing: "border-box",
-    padding: "20px",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-  }}
->
+          className="card-front"
+            style={{
+              position: "absolute",
+              width: "100%",
+              height: "100%",
+              backfaceVisibility: "hidden",
+              transform: "rotateY(180deg)",
+              backgroundColor: "white",
+              color: "black",
+              borderRadius: "24px",
+              border: "8px solid #fff", // Vérifiez que ceci est identique des deux côtés
+              boxSizing: "border-box", // Inclut les bordures dans les dimensions totales
+              padding: "20px",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
             {bonusCard && (
               <>
                 <h2 >{bonusCard.title}</h2>
