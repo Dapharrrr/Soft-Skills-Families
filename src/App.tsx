@@ -41,6 +41,7 @@ const App = () => {
           fontSize: "16px",
           cursor: "pointer",
           margin: "20px 0",
+          color: "white",
         }}
       >
         {isFlipped ? "Hide Bonus Card" : "Reveal Bonus Card"}
@@ -85,7 +86,6 @@ const App = () => {
 
           {/* Front of Card */}
           <div
-          className="card-front"
             style={{
               position: "absolute",
               width: "100%",
