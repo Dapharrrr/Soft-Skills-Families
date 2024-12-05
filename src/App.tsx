@@ -50,17 +50,17 @@ const App = () => {
       </button>
 
       <div
-        style={{
-          perspective: "1500px",
-          width: "300px",
-          height: "400px",
-          margin: "0 auto", // Assure un centrage parfait
-          position: "relative", // Garde l'alignement constant
-          display: "flex", // Permet un équilibrage parfait
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+  style={{
+    perspective: "1500px",
+    width: "300px", // Largeur uniforme
+    height: "400px", // Hauteur uniforme
+    margin: "0 auto", // Centrage horizontal
+    display: "flex", // Aligne les enfants
+    justifyContent: "center",
+    alignItems: "center",
+  }}
+>
+
         <div
           style={{
             width: "100%",
@@ -79,8 +79,9 @@ const App = () => {
               width: "100%",
               height: "100%",
               backfaceVisibility: "hidden",
-              backgroundImage: `url('/wallpaperflare.com_wallpaper.jpg')`,
-              backgroundSize: "cover",
+              backgroundImage: `url('/dos card.png')`,
+              backgroundSize: 'contain',
+              backgroundRepeat: 'no-repeat',
               backgroundPosition: "center",
               borderRadius: "24px",
             }}
