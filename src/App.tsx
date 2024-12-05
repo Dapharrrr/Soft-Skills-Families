@@ -66,7 +66,18 @@ const App = () => {
       </button>
 
       {isFlipped && (
-        <div style={{ marginTop: "10px", marginBottom: "10px" ,fontSize: "18px", fontWeight: "bold" }}>
+        <div
+          style={{
+            marginTop: "10px",
+            marginBottom: "10px",
+            fontSize: "18px",
+            fontWeight: "bold",
+            backgroundColor: "red",
+            border: "2px solid red",
+            borderRadius: "10px", // Contour rouge
+            padding: "10px", // Ajout d'espace interne pour un meilleur visuel
+          }}
+        >
           Time left: {timeLeft} seconds
         </div>
       )}
@@ -82,7 +93,6 @@ const App = () => {
           alignItems: "center",
         }}
       >
-        
         <div
           style={{
             width: "100%",
