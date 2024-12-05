@@ -13,18 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-[data-theme="light"] {
-  --background-card: var(--background-light);
-  --text-card: var(--text-light);
-  --border-card: var(--border-light);
-}
-
-[data-theme="dark"] {
-  --background-card: var(--background-dark);
-  --text-card: var(--text-dark);
-  --border-card: var(--border-dark);
-}
-
 a {
   font-weight: 500;
   color: #646cff;
