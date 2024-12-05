@@ -42,6 +42,7 @@ const App = () => {
           cursor: "pointer",
           margin: "20px 0",
           backgroundColor: "white",
+          color: "black",
         }}
       >
         {isFlipped ? "Hide Bonus Card" : "Reveal Bonus Card"}
