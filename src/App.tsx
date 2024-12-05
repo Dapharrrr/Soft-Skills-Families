@@ -41,7 +41,7 @@ const App = () => {
           fontSize: "16px",
           cursor: "pointer",
           margin: "20px 0",
-          color: "white",
+          backgroundColor: "white",
         }}
       >
         {isFlipped ? "Hide Bonus Card" : "Reveal Bonus Card"}
