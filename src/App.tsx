@@ -8,15 +8,18 @@ const App = () => {
     id: number;
     title: string;
     description: string;
+    answer: string; // Add 'answer' property to your data
   }>(null);
   const [isFlipped, setIsFlipped] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(0); // Temps restant
+  const [timeLeft, setTimeLeft] = useState(0); // Timer
+  const [showAnswer, setShowAnswer] = useState(false); // Show answer state
 
   const revealBonusCard = () => {
     if (!isFlipped) {
       const randomIndex = Math.floor(Math.random() * bonusCards.length);
       setBonusCard(bonusCards[randomIndex]);
-      setTimeLeft(60); // Démarre le compte à rebours de 45 secondes
+      setTimeLeft(60); // Start a 60-second countdown
+      setShowAnswer(false); // Reset answer view
     }
     setIsFlipped((prev) => !prev);
   };
@@ -30,11 +33,7 @@ const App = () => {
       }, 1000);
     }
 
-    if (timeLeft === 0) {
-      setIsFlipped(false); // Cache la carte lorsque le timer atteint 0
-    }
-
-    return () => clearInterval(timer); // Nettoie l’intervalle
+    return () => clearInterval(timer); // Clean up the timer
   }, [isFlipped, timeLeft]);
 
   return (
@@ -74,8 +73,8 @@ const App = () => {
             fontWeight: "bold",
             backgroundColor: "red",
             border: "2px solid red",
-            borderRadius: "10px", // Contour rouge
-            padding: "10px", // Ajout d'espace interne pour un meilleur visuel
+            borderRadius: "10px",
+            padding: "10px",
           }}
         >
           Time left: {timeLeft} seconds
@@ -142,7 +141,28 @@ const App = () => {
             {bonusCard && (
               <>
                 <h2>{bonusCard.title}</h2>
-                <p>{bonusCard.description}</p>
+                <p>
+                  {showAnswer
+                    ? bonusCard.answer // Show answer if toggled
+                    : bonusCard.description}
+                </p>
+                {!showAnswer && ( // Show the button only if answer is not visible
+                  <button
+                    onClick={() => setShowAnswer(true)}
+                    style={{
+                      marginTop: "10px",
+                      padding: "10px 15px",
+                      fontSize: "14px",
+                      backgroundColor: "green",
+                      color: "white",
+                      border: "none",
+                      borderRadius: "5px",
+                      cursor: "pointer",
+                    }}
+                  >
+                    See Answer
+                  </button>
+                )}
               </>
             )}
           </div>
