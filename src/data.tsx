@@ -48,6 +48,13 @@ export const bonusCards = [
     answer:
       "Non-verbal communication is the transmission of information through body language, facial expressions, gestures, posture, and other physical cues without using words.",
   },
+  {
+    id: 7,
+    title: "Communication Family",
+    description:
+      "Tell a completely made-up story. You must include a penguin, a cell phone, and a pizza, and it must all make sense.",
+    answer: ""
+  },
 
   // Teamwork Family
   {
@@ -98,6 +105,7 @@ export const bonusCards = [
     answer:
       "Constructive feedback is giving clear, respectful, and actionable input to help someone improve their performance or behavior.",
   },
+
 
   // Problem Solving Family
   {

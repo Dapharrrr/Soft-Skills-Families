@@ -146,7 +146,8 @@ const App = () => {
                     ? bonusCard.answer // Show answer if toggled
                     : bonusCard.description}
                 </p>
-                {!showAnswer && ( // Show the button only if answer is not visible
+                {/* Show the button only if 'answer' exists */}
+                {bonusCard.answer && !showAnswer && (
                   <button
                     onClick={() => setShowAnswer(true)}
                     style={{
