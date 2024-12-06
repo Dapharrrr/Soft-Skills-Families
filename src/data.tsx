@@ -356,4 +356,71 @@ export const bonusCards = [
     answer:
       "Design thinking means a human-centered, iterative approach to problem-solving that emphasizes empathy, ideation, prototyping, and testing to create innovative and user-focused solutions.",
   },
+  {
+    "id": 72,
+    "title": "Creativity Family",
+    "description": "Can you explain what innovative thinking means, and describe it using as many words as possible?",
+    "answer": "Innovative thinking means generating new, original, and effective ideas by challenging conventional methods, exploring creative possibilities, and envisioning solutions to improve or transform situations."
+  },
+  {
+    "id": 73,
+    "title": "Creativity Family",
+    "description": "Can you explain what brainstorming means and describe it using as many words as possible?",
+    "answer": "Brainstorming means collaboratively generating a wide range of ideas or solutions in a group setting, often without judgment, to encourage creativity and uncover the best options."
+  },
+  {
+    "id": 74,
+    "title": "Creativity Family",
+    "description": "Can you explain what calculated risk-taking means, using as many words as possible?",
+    "answer": "Calculated risk-taking means evaluating potential opportunities and challenges, weighing the pros and cons, and making informed decisions to pursue actions with a chance of success despite uncertainty."
+  },
+  {
+    "id": 75,
+    "title": "Creativity Family",
+    "description": "Can you explain what adapting ideas means, using as many words as possible?",
+    "answer": "Adapting ideas means modifying or refining existing concepts to better suit new situations, challenges, or requirements, making them more practical or innovative."
+  },
+  {
+    "id": 76,
+    "title": "Creativity Family",
+    "description": "Can you explain what creative problem solving means, using as many words as possible?",
+    "answer": "Creative problem-solving means approaching challenges with open-mindedness, generating unique and effective solutions by combining creativity, critical thinking, and logic."
+  },
+  {
+    "id": 77,
+    "title": "Creativity Family",
+    "description": "Can you explain what design thinking means, using as many words as possible?",
+    "answer": "Design thinking means a human-centered, iterative approach to problem-solving that emphasizes empathy, ideation, prototyping, and testing to create innovative and user-focused solutions."
+  },
+  {
+    "id": 78,
+    "title": "Creativity Family",
+    "description": "Run around the room while sharing an innovative idea you would like to propose at work, without stopping.",
+    "answer": ""
+  },
+  {
+    "id": 79,
+    "title": "Creativity Family",
+    "description": "Jump in place with every word you say while listing three essential qualities for effective communication in a team project, and explain why you chose these qualities.",
+    "answer": ""
+  },
+  {
+    "id": 80,
+    "title": "Creativity Family",
+    "description": "Choose a player, who will have to mime 3 skills of their choice using only gestures. It's up to you to guess which skills they are.",
+    "answer": ""
+  },
+  {
+    "id": 81,
+    "title": "Creativity Family",
+    "description": "Choose a player and tell them a funny story by including three unrelated elements, making sure the story makes sense and is funny enough to make your audience laugh.",
+    "answer": ""
+  },
+  {
+    "id": 82,
+    "title": "Creativity Family",
+    "description": "Choose a player, who will create a sentence in French using a difficult-to-pronounce word ('anticonstitutionnellement'), and you will have to repeat the sentence without making any mistakes.",
+    "answer": ""
+  }
+  
 ];
